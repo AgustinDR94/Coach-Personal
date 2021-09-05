@@ -1,0 +1,240 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    max-width: 100%;
+}
+.contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.nav3 {
+    background-color: rgb(207, 207, 207);
+    padding: 2rem;
+    background-attachment: fixed;
+}
+.nav0 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav0 a {
+    color: #000;
+    text-decoration: none;
+    margin: .8rem;
+}
+.nav0 a:hover {
+    color: rgb(125, 170, 253);
+}
+.texto {
+    line-height: 1rem;
+
+}
+.texto p {
+    text-align: center;
+}
+.section1 {
+    background-image: url(./imagenes/mountains-1645078_1920.jpg);
+    width: auto;
+    height: 1000px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.texto1 {
+    text-align: center;
+    padding: 8rem;
+    line-height: 0rem;
+}
+.texto1 h1 {
+    font-size: 8rem;
+    text-transform: uppercase;
+}
+.btn {
+    background-color: #000;
+    color: #fff;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    font-weight: 100;
+    cursor: pointer;
+}
+.section2 {
+    margin: 2rem;
+}
+.sobremi {
+    display: flex;
+}
+.sobremi img {
+    width: 700px;
+    height: 500px;
+}
+.textomi h1 {
+    text-transform: uppercase;
+    height: 3rem;
+}
+.btn1 {
+    background-color: #000;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    font-weight: 100;
+    color: #fff;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+.section3 {
+    background: #2980B9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #6dd4fa75, #297fb96e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #6dd4fa57, #297fb967),url(./imagenes/rough-horn-2146181_1920.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top: 1rem;
+    padding-bottom: 5rem;
+
+}
+.boton10 {
+    display: flex;
+    margin: 5rem;
+    font-weight: lighter;
+}
+.cajas {
+    display: flex;
+    justify-content: space-between;
+}
+.textocaja {
+    border: 5px solid #000;
+    text-align: center;
+}
+.textocaja h3 {
+    text-transform: uppercase;
+    padding: 0 2rem;
+    line-height: 1rem;
+}
+hr {
+   width: 7rem;
+   height: .1rem;
+   background-color: black;
+   border: none;
+}
+.btn2 {
+    background-color: cadetblue;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: .5rem 1rem;
+    margin: 1rem;
+    cursor: pointer;
+}
+.textoayuda {
+    text-transform: uppercase;
+    margin-bottom: 3rem;
+}
+.section4 {
+    background: #74ebd5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.section44 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.textofoo h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.textofoo hr {
+    width: 2rem;
+}
+.texto8 p{
+    line-height: .2rem;
+}
+.texto9 {
+    margin-bottom: 2rem;
+}
+.email {
+    height: .5rem;
+}
+.iconos {
+    display: flex;
+}
+.icon {
+    width: 1.5rem;
+    margin: 0 .5rem;
+}
+.label {
+    background-color: #add8d1;
+}
+.texto1 {
+    display: flex;
+    flex-direction: column;
+}
+.boton15 {
+    text-align: right;
+    margin-top: .2rem;
+}
+
+@media (max-width: 468px ) {
+    .nav0, .nav3, .texto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        line-height: 1.5rem;
+    }
+    .section1 {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    .texto1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .btn {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: auto;
+        padding: auto;
+    }
+    .sobremi {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .btn1 {
+        flex-direction: column;
+        margin: 1rem;
+        padding: auto;
+    }
+    .section3 {
+        display: flex;
+        flex-direction: column;
+    }
+    .cajas, .textoayuda {
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+    .boton10 {
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    .section44 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
